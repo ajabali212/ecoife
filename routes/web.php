@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
-
+use App\Http\Controllers\Frontend\AboutUsController;
+use App\Http\Controllers\Frontend\ServicesController;
+use App\Http\Controllers\Frontend\ContactController;
+use App\Http\Controllers\Frontend\CareerController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +21,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/',[HomeController::class,'index']);
+Route::get('/about',[AboutUsController::class,'index'])->name('about');
+Route::get('/services',[ServicesController::class,'index'])->name('services');
+Route::get('/contact',[ContactController::class,'index'])->name('contact');
+Route::get('/careers',[CareerController::class,'index'])->name('careers');

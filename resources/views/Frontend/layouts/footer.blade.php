@@ -1,5 +1,5 @@
 <footer id="footer" class="footer">
-    <div class="footer-widget-area bg-img-cover bg-no-repeat bg-img-center" data-tm-bg-img="http://placehold.it/1894x541">
+    <div class="footer-widget-area bg-img-cover bg-no-repeat bg-img-center" data-tm-bg-img="">
       <div class="container pt-120 pb-60">
         <div class="row">
           <div class="col-md-6 col-lg-3">
@@ -122,6 +122,6 @@
 
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
-<script src="{{asset('js/custom.js')}}"></script>
+<script src="{{asset('Frontend/js/custom.js')}}"></script>
 </body>
 </html>
