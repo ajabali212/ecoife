@@ -144,7 +144,7 @@
               <div class="col-sm-auto ms-auto pr-0 align-self-center">
                 <nav id="top-primary-nav" class="menuzord theme-color1" data-effect="fade" data-animation="none" data-align="right">
                   <ul id="main-nav" class="menuzord-menu">
-                    <li class="active"><a href="index.php">Home</a></li>                   
+                    <li class="active"><a href="{{route('home')}}">Home</a></li>                   
                     <li><a href="{{route('about')}}">About Us</a>
                      <!--  <ul class="dropdown">
                         <li><a href="history.php">Our History</a></li>
