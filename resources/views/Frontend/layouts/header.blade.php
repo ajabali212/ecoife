@@ -161,14 +161,22 @@
                         <li><a href="page-campaign-details.html">Campaign Details</a></li>
                       </ul>
                     </li>
+                    <!---
                     <li><a href="{{route('careers')}}">Careers</a></li>
-                    <!---<li><a href="news-grid.html">Career</a>
+                    <li><a href="news-grid.html">Career</a>
                       <ul class="dropdown">
                         <li><a href="news-grid.html">News Grid</a></li>
                         <li><a href="news-details.html">News Details</a></li>
                       </ul>
-                    </li>-->
+                    </li>
+                    -->
                     <li><a href="{{route('contact')}}">Contact</a></li>
+                    <li><a href="#">
+                    <select>
+                      <option>English</option>
+                      <option>Malay</option>
+                    </select>
+                    </a></li>
                   </ul>
                 </nav>
               </div>
