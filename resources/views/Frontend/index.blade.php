@@ -341,6 +341,7 @@
                   <li class="nav-item" role="presentation">
                     <a class="nav-link" id="solarenergy-tab" data-bs-toggle="tab" href="#solarenergy" role="tab" aria-controls="solarenergy" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>Solar Energy</a>
                   </li>
+                  
                 </ul>
                 <div class="tab-content p-0" id="myTabContent">
                   <div class="tab-pane fade" id="eco-system" role="tabpanel" aria-labelledby="eco-system-tab">
@@ -493,25 +494,6 @@
                     <img src="http://placehold.it/370x323" alt="Image" class="w-100">
                     <a href="page-contact.html" class="btn btn-donate-now">Donate Now</a>
                   </div>
-                  <div class="causes-details bg-white">
-                    <div class="donation-goal mb-1">
-                      <div class="raised">Goal: <span class="text-theme-colored1 font-weight-500">3600.00 USD</span></div>
-                    </div>
-                    <h4 class="causes-title"><a href="page-campaign-details.html">Expanding Rarest Park Wildlife</a></h4>
-                  </div>
-                  <div class="tm-sc-progress progress-item">
-                    <div class="tm-sc-progress-bar progress-bar-fixed-right-percent d-flex align-items-center" data-percent="23" data-bar-height="10">
-                      <div class="progress-title mr-10">
-                        <div class="font-size-14">Raised:</div>
-                      </div>
-                      <div class="progress-holder w-100" data-tm-border-radius="10">
-                        <div class="progress-content bg-theme-colored2" data-width="60%" data-tm-border-radius="10"></div>
-                      </div>
-                      <div class="progress-title-holder ml-10">
-                        <span class="percent position-relative font-size-14"><span class="symbol-left"></span><span class="value">23</span><span class="symbol-right">%</span></span>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -522,25 +504,6 @@
                     <img src="http://placehold.it/370x323" alt="Image" class="w-100">
                     <a href="page-contact.html" class="btn btn-donate-now">Donate Now</a>
                   </div>
-                  <div class="causes-details bg-white">
-                    <div class="donation-goal mb-1">
-                      <div class="raised">Goal: <span class="text-theme-colored1 font-weight-500">3600.00 USD</span></div>
-                    </div>
-                    <h4 class="causes-title"><a href="page-campaign-details.html">Protecting the Wild Heart Amazon</a></h4>
-                  </div>
-                  <div class="tm-sc-progress progress-item">
-                    <div class="tm-sc-progress-bar progress-bar-fixed-right-percent d-flex align-items-center" data-percent="66" data-bar-height="10">
-                      <div class="progress-title mr-10">
-                        <div class="font-size-14">Raised:</div>
-                      </div>
-                      <div class="progress-holder w-100" data-tm-border-radius="10">
-                        <div class="progress-content bg-theme-colored2" data-width="66%" data-tm-border-radius="10"></div>
-                      </div>
-                      <div class="progress-title-holder ml-10">
-                        <span class="percent position-relative font-size-14"><span class="symbol-left"></span><span class="value">66</span><span class="symbol-right">%</span></span>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -550,25 +513,6 @@
                   <div class="causes-thumb">
                     <img src="http://placehold.it/370x323" alt="Image" class="w-100">
                     <a href="page-contact.html" class="btn btn-donate-now">Donate Now</a>
-                  </div>
-                  <div class="causes-details bg-white">
-                    <div class="donation-goal mb-1">
-                      <div class="raised">Goal: <span class="text-theme-colored1 font-weight-500">3600.00 USD</span></div>
-                    </div>
-                    <h4 class="causes-title"><a href="page-campaign-details.html">Let’s Fight for Save Animals</a></h4>
-                  </div>
-                  <div class="tm-sc-progress progress-item">
-                    <div class="tm-sc-progress-bar progress-bar-fixed-right-percent d-flex align-items-center" data-percent="48" data-bar-height="10">
-                      <div class="progress-title mr-10">
-                        <div class="font-size-14">Raised:</div>
-                      </div>
-                      <div class="progress-holder w-100" data-tm-border-radius="10">
-                        <div class="progress-content bg-theme-colored2" data-width="48%" data-tm-border-radius="10"></div>
-                      </div>
-                      <div class="progress-title-holder ml-10">
-                        <span class="percent position-relative font-size-14"><span class="symbol-left"></span><span class="value">48</span><span class="symbol-right">%</span></span>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -583,6 +527,7 @@
     </section>
 
     <!-- Section: Divider -->
+    <!--
     <section class="bg-no-repeat bg-img-cover" data-tm-bg-img="http://placehold.it/1894x554">
       <div class="section-content">
         <div class="container pb-0">
@@ -651,7 +596,7 @@
         </div>
       </div>
     </section>
-
+    -->
     <!-- Section: Divider -->
     <section class="bg-no-repeat bg-img-cover" data-tm-bg-img="http://placehold.it/1894x324">
       <div class="section-content">
@@ -675,121 +620,7 @@
     </section>
 
     <!-- Section: Testimonial -->
-    <section class="" data-tm-bg-color="#f5f5f4">
-      <div class="container-fluid pl-0 pr-0 pr-sm-15 pl-sm-15 pb-md-40">
-        <div class="tm-sc-section-title section-title text-center mb-50">
-          <div class="row justify-content-md-center">
-            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-              <div class="title-wrapper mb-1">
-                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">Our Testimonials</h6>
-                <h2 class="title mb-0">What They Say</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="tm-sc-testimonials testimonial-current-theme-style1">
-            <div class="tm-owl-carousel-3col" data-stagePadding="370" data-laptop="1">
-              <div class="tm-testimonial testimonials">
-                <div class="testimonial-inner">
-                  <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
-                    <div class="icon">
-                      <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
-                    </div>
-                  </div>
-                  <div class="testimonial-author-details">
-                    <div class="testimonial-image-holder">
-                      <div class="author-thumb"> <img width="57" height="57" src="http://placehold.it/57x57" class="" alt="Image"></div>
-                    </div>
-                    <div class="testimonial-author-info-holder">
-                      <h5 class="name">Jessica Brown</h5>
-                      <span class="job-position">Customer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tm-testimonial testimonials">
-                <div class="testimonial-inner">
-                  <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
-                    <div class="icon">
-                      <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
-                    </div>
-                  </div>
-                  <div class="testimonial-author-details">
-                    <div class="testimonial-image-holder">
-                      <div class="author-thumb"> <img width="57" height="57" src="http://placehold.it/57x57" class="" alt="Image"></div>
-                    </div>
-                    <div class="testimonial-author-info-holder">
-                      <h5 class="name">Mike Hardson</h5>
-                      <span class="job-position">Customer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tm-testimonial testimonials">
-                <div class="testimonial-inner">
-                  <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
-                    <div class="icon">
-                      <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
-                    </div>
-                  </div>
-                  <div class="testimonial-author-details">
-                    <div class="testimonial-image-holder">
-                      <div class="author-thumb"> <img width="57" height="57" src="http://placehold.it/57x57" class="" alt="Image"></div>
-                    </div>
-                    <div class="testimonial-author-info-holder">
-                      <h5 class="name">Saral Albert</h5>
-                      <span class="job-position">Customer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tm-testimonial testimonials">
-                <div class="testimonial-inner">
-                  <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
-                    <div class="icon">
-                      <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
-                    </div>
-                  </div>
-                  <div class="testimonial-author-details">
-                    <div class="testimonial-image-holder">
-                      <div class="author-thumb"> <img width="57" height="57" src="http://placehold.it/57x57" class="" alt="Image"></div>
-                    </div>
-                    <div class="testimonial-author-info-holder">
-                      <h5 class="name">John Smith</h5>
-                      <span class="job-position">Customer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tm-testimonial testimonials">
-                <div class="testimonial-inner">
-                  <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
-                    <div class="icon">
-                      <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
-                    </div>
-                  </div>
-                  <div class="testimonial-author-details">
-                    <div class="testimonial-image-holder">
-                      <div class="author-thumb"> <img width="57" height="57" src="http://placehold.it/57x57" class="" alt="Image"></div>
-                    </div>
-                    <div class="testimonial-author-info-holder">
-                      <h5 class="name">David Cooper</h5>
-                      <span class="job-position">Customer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
 
     <!-- Section: Team -->
     <section>
@@ -888,12 +719,13 @@
     </section>
 
     <!-- Section: Divider -->
+    <!--
     <section class="bg-no-repeat bg-img-cover" data-tm-bg-img="http://placehold.it/1894x611">
       <div class="section-content">
         <div class="container pt-0">
           <div class="row text-center">
             <div class="col-lg-11 col-xl-9 col-xxl-8 m-auto">
-              <div class="bg-theme-colored2 icon-current-style1 d-inline-block mb-30"><img src="{{asset('Frontend/images/icons/2.png')}}" alt="Icon-Image"></div>
+              <div class="bg-theme-colored2 icon-current-style1 d-inline-block mb-30"><img src="" alt="Icon-Image"></div>
               <h2 class="font-size-60 font-weight-500 text-white mt-0 mb-40 pb-1">We Use the Support of 3,4500 People to Clean the Air and Safe Rivers</h2>
               <a href="page-campaign-details.html" class="btn btn-outline-theme-colored2 btn-outline btn-lg btn-round font-size-14 font-weight-500 text-uppercase letter-spacing-1 pt-20 pb-20">Start Donating</a>
             </div>
@@ -901,6 +733,7 @@
         </div>
       </div>
     </section>
+    -->
 
     <!-- Section: Divider -->
     <section>
@@ -976,6 +809,7 @@
     </section>
 
     <!-- Section: News -->
+    <!--
     <section data-tm-bg-color="#f5f5f4">
       <div class="container pb-110">
         <div class="section-content">
@@ -1095,10 +929,11 @@
         </div>
       </div>
     </section>
+    -->
 
 
     <!-- Section: Divider -->
-    <section>
+    <!--<section>
       <div class="container-fluid p-0">
         <div class="tm-sc-custom-columns-holder tm-cc-two-columns tm-cc-responsive-mode-1280">
           <div class="tm-sc-custom-columns-holder-item bg-img-left" data-item-class="tm-custom-columns-11" data-tm-bg-img="http://placehold.it/1894x826" data-1400-up="70px 15% 120px 26%"  data-1200-up="80px 15% 70px 15%" data-1199-down="80px 10% 70px 10%" data-991-down="80px 10% 70px 10%" data-767-down="80px 10% 70px 10%" data-575-down="80px 10% 70px 10%">
@@ -1128,7 +963,7 @@
       <div class="tm-floating-objects">
         <span class="floating-object-1 tm-animation-floating d-none d-xl-block" data-tm-bg-img="http://placehold.it/161x166" data-tm-width="161" data-tm-height="166" data-tm-top="calc(50% - 83px)" data-tm-bottom="auto" data-tm-left="calc(50% - 80.5px)" data-tm-right="auto" data-tm-opacity="1"></span>
       </div>
-    </section>
+    </section>-->
 
   </div>
    <!-- end main-content -->
