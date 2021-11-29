@@ -19,9 +19,16 @@ use App\Http\Controllers\Frontend\CareerController;
 
 Route::get('/', function () {
     return view('welcome');
+    
 });
+
+
+Route::middleware(['prefix' => 'locale'])->group(function() {
+
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about',[AboutUsController::class,'index'])->name('about');
 Route::get('/services',[ServicesController::class,'index'])->name('services');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');
 Route::get('/careers',[CareerController::class,'index'])->name('careers');
+
+});

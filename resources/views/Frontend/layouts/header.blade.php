@@ -173,8 +173,8 @@
                     <li><a href="{{route('contact')}}">Contact</a></li>
                     <li><a href="#">
                     <select>
-                      <option>English</option>
-                      <option>Malay</option>
+                      <option><a href="{{asset('en')}}">English</a></option>
+                      <option><a href="{{asset('malay')}}">Malay</a></option>
                     </select>
                     </a></li>
                   </ul>
