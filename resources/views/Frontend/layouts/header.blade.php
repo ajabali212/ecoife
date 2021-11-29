@@ -145,12 +145,12 @@
                 <nav id="top-primary-nav" class="menuzord theme-color1" data-effect="fade" data-animation="none" data-align="right">
                   <ul id="main-nav" class="menuzord-menu">
                     <li class="active"><a href="{{route('home')}}">Home</a></li>                   
-                    <li><a href="{{route('about')}}">About Us</a>
-                     <!--  <ul class="dropdown">
-                        <li><a href="history.php">Our History</a></li>
-                        <li><a href="">Our GP Group</a></li>
+                    <li><a href="#">About Us</a>
+                      <ul class="dropdown">
+                        <li><a href="{{route('about')}}">Our History</a></li>
+                        <li><a href="{{route('about2')}}">Our GP Group</a></li>
                       
-                      </ul> -->
+                      </ul>
                     </li>
                     <li><a href="#">Our Services</a>
                       <ul class="dropdown">

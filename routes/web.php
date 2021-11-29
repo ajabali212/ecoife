@@ -23,12 +23,13 @@ Route::get('/', function () {
 });
 
 
-Route::middleware(['prefix' => 'locale'])->group(function() {
+// Route::middleware(['prefix' => 'locale'])->group(function() {
+// });
 
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about',[AboutUsController::class,'index'])->name('about');
 Route::get('/services',[ServicesController::class,'index'])->name('services');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');
-Route::get('/careers',[CareerController::class,'index'])->name('careers');
+Route::get('/about2',[AboutUsController::class,'about2'])->name('about2');
 
-});
+
