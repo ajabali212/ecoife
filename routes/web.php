@@ -16,17 +16,17 @@ use App\Http\Controllers\Frontend\CareerController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-    
+Route::group(['prefix' => '{locale}'], function() {
+// Route::get('/', function () {
+//     return view('welcome');
+//     })->middleware('setLocale');   
+Route::get('/',[HomeController::class,'index'])->middleware('setLocale');
 });
 
 
-// Route::middleware(['prefix' => 'locale'])->group(function() {
-// });
+ 
 
-Route::get('/',[HomeController::class,'index'])->name('home');
+//Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about',[AboutUsController::class,'index'])->name('about');
 Route::get('/services',[ServicesController::class,'index'])->name('services');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');

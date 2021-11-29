@@ -25,8 +25,8 @@
                       data-frame_999="o:0;st:w;sR:7790;"
                       style="z-index:9;"
                       class="font-current-theme2"
-                      >Make an Impact<br />
-                      & Give Back to  <span class="text-theme-colored2 font-weight-700">Nature.</span>
+                      >@lang('auth.slider1')<br />
+                       @lang('auth.slider2') <span class="text-theme-colored2 font-weight-700">@lang('auth.slider3').</span>
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-9-layer-21"
@@ -38,7 +38,7 @@
                       data-frame_999="o:0;st:w;sR:8000;"
                       style="z-index:10;font-style:italic;"
                       class="font-current-theme1"
-                      >Welcome To Ecoife HTML Template
+                      >@lang('auth.welcome')
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-9-layer-22"
@@ -207,8 +207,8 @@
                     <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
                   </div>
                   <div class="content">
-                    <h5 class="title"><a href="page-campaign-details.html">Water Refine</a></h5>
-                    <p>Lorem ipsum dolor sit amet consectetur notted adipisicing elit sed do eiusmod dolore magna aliqua</p>
+                    <h5 class="title"><a href="page-campaign-details.html">@lang('auth.water_refine')</a></h5>
+                    <p>@lang('auth.water_refine_content')</p>
                     <a class="btn-link" href="page-campaign-details.html">
                       <i class="fas fa-chevron-up"></i>
                       <img class="shape-circle" src="{{asset('Frontend/images/shape/project-01.png')}}" alt="Image">

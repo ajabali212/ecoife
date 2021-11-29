@@ -144,7 +144,7 @@
               <div class="col-sm-auto ms-auto pr-0 align-self-center">
                 <nav id="top-primary-nav" class="menuzord theme-color1" data-effect="fade" data-animation="none" data-align="right">
                   <ul id="main-nav" class="menuzord-menu">
-                    <li class="active"><a href="{{route('home')}}">Home</a></li>                   
+                    <li class="active"><a href="{{url('home')}}">Home</a></li>                   
                     <li><a href="#">About Us</a>
                       <ul class="dropdown">
                         <li><a href="{{route('about')}}">Our History</a></li>
@@ -171,17 +171,19 @@
                     </li>
                     -->
                     <li><a href="{{route('contact')}}">Contact</a></li>
-                    <li><a href="#">
-                    <select>
-                      <option><a href="{{asset('en')}}">English</a></option>
-                      <option><a href="{{asset('malay')}}">Malay</a></option>
-                    </select>
-                    </a></li>
+                    <li><a href="#">{{app()->getLocale()=='malay'? 'Malay':'English'}}</a>
+                      <ul class="dropdown">
+                        <li><a href="{{url('en')}}"><img src="{{asset('Frontend/images/us-flag.png')}}" style="width:100px;height:40px;"> English</a></li>
+                        <li><a href="{{url('malay')}}"><img src="{{asset('Frontend/images/malay-flag.png')}}" style="width:100px;height:40px;"> Malay</a></li>
+                      </ul>
+                    </li>
                   </ul>
                 </nav>
               </div>
          <div class="col-sm-auto align-self-center nav-side-icon-parent">
                 <ul class="list-inline nav-side-icon-list">
+                
+                
                   <!--<li class="hidden-mobile-mode"><a href="#" id="top-nav-search-btn"><i class="search-icon fa fa-search"></i></a></li>-->
                   <!--<li class="hidden-mobile-mode">
                     <div class="top-nav-mini-cart-icon-container">
@@ -228,7 +230,6 @@
                 <nav id="top-primary-nav-clone" class="menuzord d-block d-xl-none default menuzord-color-default menuzord-border-boxed menuzord-responsive" data-effect="slide" data-animation="none" data-align="right">
                  <ul id="main-nav-clone" class="menuzord-menu menuzord-right menuzord-indented scrollable">
                  </ul>
-                 
                 </nav>
                </div>
             </div>
