@@ -144,21 +144,21 @@
               <div class="col-sm-auto ms-auto pr-0 align-self-center">
                 <nav id="top-primary-nav" class="menuzord theme-color1" data-effect="fade" data-animation="none" data-align="right">
                   <ul id="main-nav" class="menuzord-menu">
-                    <li class="active"><a href="{{url('home')}}">Home</a></li>                   
-                    <li><a href="#">About Us</a>
+                    <li class="active"><a href="{{route('home')}}">@lang('auth.Home')</a></li>                   
+                    <li><a href="#">@lang('auth.About Us')</a>
                       <ul class="dropdown">
-                        <li><a href="{{route('about')}}">Our History</a></li>
-                        <li><a href="{{route('about2')}}">Our GP Group</a></li>
+                        <li><a href="{{route('about')}}">@lang('auth.Our History')</a></li>
+                        <li><a href="{{route('about')}}">@lang('auth.Our GP Group')</a></li>
                       
                       </ul>
                     </li>
-                    <li><a href="#">Our Services</a>
+                    <li><a href="#">@lang('auth.Our Services')</a>
                       <ul class="dropdown">
-                        <li><a href="{{route('services')}}">Campaign</a></li>
-                        <li><a href="#">Campaign </a></li>
-                        <li><a href="#">Campaign Details</a></li>
-                        <li><a href="#">Campaign Details</a></li>
-                        <li><a href="#">Campaign Details</a></li>
+                        <li><a href="{{route('services')}}">@lang('auth.Services')</a></li>
+                        <li><a href="#">@lang('auth.Services') </a></li>
+                        <li><a href="#">@lang('auth.Services')</a></li>
+                        <li><a href="#">@lang('auth.Services')</a></li>
+                        <li><a href="#">@lang('auth.Services')</a></li>
                       </ul>
                     </li>
                     <!---
@@ -170,13 +170,25 @@
                       </ul>
                     </li>
                     -->
-                    <li><a href="{{route('contact')}}">Contact</a></li>
-                    <li><a href="#">{{app()->getLocale()=='malay'? 'Malay':'English'}}</a>
+                    <li><a href="{{route('contact')}}">@lang('auth.Contact')</a></li>
+                      @php $locale = session()->get('locale'); @endphp
+                    <li><a href="#">@switch($locale)
+                            @case('en')
+                            <img src="{{asset('Frontend/images/flag/us-flag.png')}}" width="25px"> English
+                            @break
+                            @case('malay')
+                            <img src="{{asset('Frontend/images/flag/malay-flag.png')}}" width="25px"> Malay
+                            @break
+                            @default
+                            <img src="{{asset('Frontend/images/flag/us-flag.png')}}" width="25px"> English
+                            @endswitch
+                        </a>
                       <ul class="dropdown">
-                        <li><a href="{{url('en')}}"><img src="{{asset('Frontend/images/us-flag.png')}}" style="width:100px;height:40px;"> English</a></li>
-                        <li><a href="{{url('malay')}}"><img src="{{asset('Frontend/images/malay-flag.png')}}" style="width:100px;height:40px;"> Malay</a></li>
+                        <li><a class="dropdown-item" href="lang/en"><img src="{{asset('Frontend/images/flag/us-flag.png')}}" width="25px"> English</a></li>
+                        <li><a class="dropdown-item" href="lang/malay"><img src="{{asset('Frontend/images/flag/malay-flag.png')}}" width="25px"> Malay</a></li>
                       </ul>
                     </li>
+
                   </ul>
                 </nav>
               </div>

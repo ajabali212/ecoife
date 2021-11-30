@@ -26,7 +26,7 @@
                       style="z-index:9;"
                       class="font-current-theme2"
                       >@lang('auth.slider1')<br />
-                       @lang('auth.slider2') <span class="text-theme-colored2 font-weight-700">@lang('auth.slider3').</span>
+                       @lang('auth.slider2') 
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-9-layer-21"
@@ -49,7 +49,7 @@
                       data-frame_1="st:1500;sp:1000;"
                       data-frame_999="o:0;st:w;sR:8700;"
                       style="z-index:8;"
-                      ><a href="page-about.html" class="btn btn-theme-colored1 text-white">Discover more</a>
+                      >
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-9-layer-33"
@@ -224,8 +224,8 @@
                     <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
                   </div>
                   <div class="content">
-                    <h5 class="title"><a href="page-campaign-details.html">Eco System</a></h5>
-                    <p>Lorem ipsum dolor sit amet consectetur notted adipisicing elit sed do eiusmod dolore magna aliqua</p>
+                    <h5 class="title"><a href="page-campaign-details.html">@lang('auth.Eco_System')</a></h5>
+                    <p>@lang('auth.eco_system_content')</p>
                     <a class="btn-link" href="page-campaign-details.html">
                       <i class="fas fa-chevron-up"></i>
                       <img class="shape-circle" src="{{asset('Frontend/images/shape/project-01.png')}}" alt="Image">
@@ -241,8 +241,8 @@
                     <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
                   </div>
                   <div class="content">
-                    <h5 class="title"><a href="page-campaign-details.html">Recycling</a></h5>
-                    <p>Lorem ipsum dolor sit amet consectetur notted adipisicing elit sed do eiusmod dolore magna aliqua</p>
+                    <h5 class="title"><a href="page-campaign-details.html">@lang('auth.Recycling')</a></h5>
+                    <p>@lang('auth.recycling_content')</p>
                     <a class="btn-link" href="page-campaign-details.html">
                       <i class="fas fa-chevron-up"></i>
                       <img class="shape-circle" src="{{asset('Frontend/images/shape/project-01.png')}}" alt="Image">
@@ -264,14 +264,14 @@
             <div class="col-lg-6 col-xl-5">
               <div class="tm-sc-section-title section-title mt-2 mb-0 mb-lg-20">
                 <div class="title-wrapper mb-0">
-                  <h6 class="subtitle line-shape-bottom text-theme-colored1">About Ecoife Platform</h6>
-                  <h2 class="title mb-0">We Have the Power Today to Change Tomorrow</h2>
+                  <h6 class="subtitle line-shape-bottom text-theme-colored1">@lang('auth.About Ecoife Platform')</h6>
+                  <h2 class="title mb-0">@lang('auth.About Ecoife Platform Content')</h2>
                 </div>
               </div>
             </div>
             <div class="col-lg-6 offset-xl-1">
               <div class="about-content">
-                <p class="font-size-18 mb-20">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lonm andhn have suffered alteration in some form.</p>
+                <p class="font-size-18 mb-20">@lang('auth.About Ecoife Platform Right')</p>
                 <div class="play-video-style1 pt-30">
                   <div class="video-box mr-30">
                     <img src="http://placehold.it/156x82" alt="Image">
@@ -282,7 +282,7 @@
                   </div>
                   <div class="description">
                     <h3 class="text-theme-colored1 font-weight-400 mt-0 mb-1">345600+</h3>
-                    <p class="mt-0 mb-0">Supporters are working with us</p>
+                    <p class="mt-0 mb-0">@lang('auth.About Ecoife Platform Right Content')</p>
                   </div>
                 </div>
               </div>
@@ -315,8 +315,8 @@
           <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-5">
               <div class="title-wrapper mb-1">
-                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">Check Our Services</h6>
-                <h2 class="title mb-0">Our Mission is to Save the World</h2>
+                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">@lang('auth.Check Our Services')</h6>
+                <h2 class="title mb-0">@lang('auth.Our Mission Is To Save The World')</h2>
               </div>
             </div>
           </div>
@@ -327,19 +327,19 @@
               <div class="project-tab-style1">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="eco-system-tab" data-bs-toggle="tab" href="#eco-system" role="tab" aria-controls="eco-system" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab1.png')}}" alt="Image"> <br>Eco System</a>
+                    <a class="nav-link" id="eco-system-tab" data-bs-toggle="tab" href="#eco-system" role="tab" aria-controls="eco-system" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab1.png')}}" alt="Image"> <br>@lang('auth.Eco_System')</a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link active" id="recycling-tab" data-bs-toggle="tab" href="#recycling" role="tab" aria-controls="recycling" aria-selected="true"><img src="{{asset('Frontend/images/icons/tab2.png')}}" alt="Image"> <br>Recycling</a>
+                    <a class="nav-link active" id="recycling-tab" data-bs-toggle="tab" href="#recycling" role="tab" aria-controls="recycling" aria-selected="true"><img src="{{asset('Frontend/images/icons/tab2.png')}}" alt="Image"> <br>@lang('auth.Recycling')</a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="waterrefine-tab" data-bs-toggle="tab" href="#waterrefine" role="tab" aria-controls="waterrefine" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab3.png')}}" alt="Image"> <br>Water Refine</a>
+                    <a class="nav-link" id="waterrefine-tab" data-bs-toggle="tab" href="#waterrefine" role="tab" aria-controls="waterrefine" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab3.png')}}" alt="Image"> <br>@lang('auth.water_refine')</a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="saveanimals-tab" data-bs-toggle="tab" href="#saveanimals" role="tab" aria-controls="saveanimals" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab4.png')}}" alt="Image"> <br>Save Animals</a>
+                    <a class="nav-link" id="saveanimals-tab" data-bs-toggle="tab" href="#saveanimals" role="tab" aria-controls="saveanimals" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab4.png')}}" alt="Image"> <br>@lang('auth.Save Animals')</a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="solarenergy-tab" data-bs-toggle="tab" href="#solarenergy" role="tab" aria-controls="solarenergy" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>Solar Energy</a>
+                    <a class="nav-link" id="solarenergy-tab" data-bs-toggle="tab" href="#solarenergy" role="tab" aria-controls="solarenergy" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>@lang('auth.Solar Energy')</a>
                   </li>
                   
                 </ul>
@@ -349,13 +349,13 @@
                       <div class="col-lg-12 col-xl-6">
                         <div class="layer-bg-wrapper-current-style1">
                           <img class="mb-25 w-100" src="http://placehold.it/585x486" alt="Image">
-                          <div class="font-size-18 text-white pb-25 pl-lg-20">For any inquiries call the hotline: <span>666 888 0000</span></div>
+                          <div class="font-size-18 text-white pb-25 pl-lg-20"> <span></span></div>
                           <div class="img-bg-layer1 bg-img-cover" data-tm-bg-img="http://placehold.it/625x571"></div>
                         </div>
                       </div>
                       <div class="col-lg-12 col-xl-5">
                         <div class="tab-content-inner pt-70 pt-lg-40 pr-md-30 pr-xs-15 pl-50 pl-lg-20 pr-lg-20 pl-md-30 pl-xs-15">
-                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">How Drones Can Save Rainforests</h3>
+                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">@lang('auth.How Drones Can Save Rainforests')</h3>
                           <p class="font-size-18 mb-40">There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou.</p>
                           <ul class="unordered-list-current-style1 mb-50">
                             <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> Lorem Ipsum is not simply random text</li>
@@ -372,20 +372,20 @@
                       <div class="col-lg-12 col-xl-6">
                         <div class="layer-bg-wrapper-current-style1">
                           <img class="mb-25 w-100" src="http://placehold.it/585x486" alt="Image">
-                          <div class="font-size-18 text-white pb-25 pl-lg-20">For any inquiries call the hotline: <span>666 888 0000</span></div>
+                          <div class="font-size-18 text-white pb-25 pl-lg-20"><span></span></div>
                           <div class="img-bg-layer1 bg-img-cover" data-tm-bg-img="http://placehold.it/625x571"></div>
                         </div>
                       </div>
                       <div class="col-lg-12 col-xl-5">
                         <div class="tab-content-inner pt-70 pt-lg-40 pr-md-30 pr-xs-15 pl-50 pl-lg-20 pr-lg-20 pl-md-30 pl-xs-15">
-                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">How Drones Can Save Rainforests</h3>
-                          <p class="font-size-18 mb-40">There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou.</p>
+                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">@lang('auth.How Drones Can Save Rainforests')</h3>
+                          <!-- <p class="font-size-18 mb-40">There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou.</p>
                           <ul class="unordered-list-current-style1 mb-50">
                             <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> Lorem Ipsum is not simply random text</li>
                             <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> If you are going to use a passage</li>
                             <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> Making this the first true generator on the Internet</li>
                             <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> Various versions have evolved over the years</li>
-                          </ul>
+                          </ul> -->
                         </div>
                       </div>
                     </div>
@@ -479,8 +479,8 @@
           <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
               <div class="title-wrapper mb-1">
-                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">Start Donating Now</h6>
-                <h2 class="title mb-0">Recent Campaigns</h2>
+                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">@lang('auth.Start Donating Now')</h6>
+                <h2 class="title mb-0">@lang('auth.Recent Campaigns')</h2>
               </div>
             </div>
           </div>
@@ -492,7 +492,7 @@
                 <div class="causes-item mb-lg-30">
                   <div class="causes-thumb">
                     <img src="http://placehold.it/370x323" alt="Image" class="w-100">
-                    <a href="page-contact.html" class="btn btn-donate-now">Donate Now</a>
+                    <a href="page-contact.html" class="btn btn-donate-now">@lang('auth.Donate Now')</a>
                   </div>
                 </div>
               </div>
@@ -502,7 +502,7 @@
                 <div class="causes-item mb-lg-30">
                   <div class="causes-thumb">
                     <img src="http://placehold.it/370x323" alt="Image" class="w-100">
-                    <a href="page-contact.html" class="btn btn-donate-now">Donate Now</a>
+                    <a href="page-contact.html" class="btn btn-donate-now">@lang('auth.Donate Now')</a>
                   </div>
                 </div>
               </div>
@@ -512,7 +512,7 @@
                 <div class="causes-item mb-lg-30">
                   <div class="causes-thumb">
                     <img src="http://placehold.it/370x323" alt="Image" class="w-100">
-                    <a href="page-contact.html" class="btn btn-donate-now">Donate Now</a>
+                    <a href="page-contact.html" class="btn btn-donate-now">@lang('auth.Donate Now')</a>
                   </div>
                 </div>
               </div>
@@ -629,8 +629,8 @@
           <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
               <div class="title-wrapper mb-1">
-                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">Team Members</h6>
-                <h2 class="title mb-0">Our Volunteers</h2>
+                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">@lang('auth.Team Members')</h6>
+                <h2 class="title mb-0">@lang('auth.Our Volunteers')</h2>
               </div>
             </div>
           </div>
@@ -742,9 +742,9 @@
           <div class="col-lg-6 col-xl-5">
             <div class="tm-sc-section-title section-title mb-0 mb-md-50">
               <div class="title-wrapper mb-0">
-                <h6 class="subtitle line-shape-bottom text-theme-colored1">We Love & Care</h6>
-                <h2 class="title mb-0 pr-100 pr-xs--0">Entire World to Trust Us</h2>
-                <p class="paragraph mt-30 mb-0 pt-2">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lonm andhn.</p>
+                <h6 class="subtitle line-shape-bottom text-theme-colored1">@lang('auth.We Love & Care')</h6>
+                <h2 class="title mb-0 pr-100 pr-xs--0">@lang('auth.Entire World To Trust Us')</h2>
+                <p class="paragraph mt-30 mb-0 pt-2">@lang('auth.We Love Content')</p>
               </div>
             </div>
           </div>
@@ -772,10 +772,10 @@
               <div class="content">
                 <div class="row">
                   <div class="col-lg-7 col-xl-8">                    
-                    <div class="">Goal: <span class="text-theme-colored1 font-weight-500">3600.00 USD</span></div>
-                    <h3 class="font-weight-400 mt-1 mb-20 pb-1">Raise Fund for Save Animals</h3>
-                    <p class="font-size-18">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <a href="page-contact.html" class="btn btn-outline-theme-colored1 btn-outline btn-round font-size-14 font-weight-500 text-uppercase letter-spacing-1 mb-md-20 pt-20 pr-40 pb-20 pl-40">Donate now</a>
+                    <div class=""> <span class="text-theme-colored1 font-weight-500">3600.00 USD</span></div>
+                    <h3 class="font-weight-400 mt-1 mb-20 pb-1">@lang('auth.Raise Fund for Save Animals')</h3>
+                    <p class="font-size-18">@lang('auth.Raise Fund for Save Animals Content')</p>
+                    <a href="page-contact.html" class="btn btn-outline-theme-colored1 btn-outline btn-round font-size-14 font-weight-500 text-uppercase letter-spacing-1 mb-md-20 pt-20 pr-40 pb-20 pl-40">@lang('auth.Donate now')</a>
                   </div>
                   <div class="col-lg-5 col-xl-3 offset-xl-1">
                     <div class="tm-sc-pie-chart pie-chart-current-style1 mt-30">
