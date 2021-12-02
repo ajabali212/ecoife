@@ -22,6 +22,10 @@ return [
     'Our GP Group' => 'Our GP Group',
     'Our Services' => 'Our Services',
     'Services' => 'Services',
+    'Services 2' => 'Services 2',
+    'Services 3' => 'Services 3',
+    'Services 4' => 'Services 4',
+    'Services 5' => 'Services 5',
     'Contact' => 'Contact',
     'welcome' => 'Welcome To Ecoife HTML Template',
     'slider1' => 'Make an Impact',
@@ -55,4 +59,7 @@ return [
     'about_page_banner' => 'About',
     'about_page' => 'About Page Content',
     'about_page_content' => 'Active & Ready to use Contact Form!',
+    'about_page_banner 2' => 'About 2',
+    'How Drones Can Save Rainforests' => 'How Drones Can Save Rainforests',
+    'about 2 page content' => 'There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou.',
 ];

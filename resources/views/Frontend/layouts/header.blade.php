@@ -156,10 +156,10 @@
                     <li><a href="#">@lang('auth.Our Services')</a>
                       <ul class="dropdown">
                         <li><a href="{{route('services')}}">@lang('auth.Services')</a></li>
-                        <li><a href="#">@lang('auth.Services') </a></li>
-                        <li><a href="#">@lang('auth.Services')</a></li>
-                        <li><a href="#">@lang('auth.Services')</a></li>
-                        <li><a href="#">@lang('auth.Services')</a></li>
+                        <li><a href="{{route('services2')}}">@lang('auth.Services 2') </a></li>
+                        <li><a href="{{route('services3')}}">@lang('auth.Services 3')</a></li>
+                        <li><a href="{{route('services4')}}">@lang('auth.Services 4')</a></li>
+                        <li><a href="{{route('services5')}}">@lang('auth.Services 5')</a></li>
                       </ul>
                     </li>
                     <!---

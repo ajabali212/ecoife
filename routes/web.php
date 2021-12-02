@@ -30,6 +30,10 @@ use App\Http\Controllers\LocalizationController;
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about',[AboutUsController::class,'index'])->name('about');
 Route::get('/services',[ServicesController::class,'index'])->name('services');
+Route::get('/services2',[ServicesController::class,'services2'])->name('services2');
+Route::get('/services3',[ServicesController::class,'services3'])->name('services3');
+Route::get('/services4',[ServicesController::class,'services4'])->name('services4');
+Route::get('/services5',[ServicesController::class,'services5'])->name('services5');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');
 Route::get('/about2',[AboutUsController::class,'about2'])->name('about2');
 
