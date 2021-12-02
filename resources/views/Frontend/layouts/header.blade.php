@@ -149,7 +149,7 @@
                     <li><a href="#">@lang('auth.About Us')</a>
                       <ul class="dropdown">
                         <li><a href="{{route('about')}}">@lang('auth.Our History')</a></li>
-                        <li><a href="{{route('about')}}">@lang('auth.Our GP Group')</a></li>
+                        <li><a href="{{route('about2')}}">@lang('auth.Our GP Group')</a></li>
                       
                       </ul>
                     </li>

@@ -52,6 +52,7 @@ return [
     'We Love Content' => 'Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lonm andhn.',
     'Raise Fund for Save Animals' => 'Raise Fund for Save Animals',
     'Raise Fund for Save Animals Content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore.',
+    'about_page_banner' => 'About',
     'about_page' => 'About Page Content',
     'about_page_content' => 'Active & Ready to use Contact Form!',
 ];
