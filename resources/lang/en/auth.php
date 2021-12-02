@@ -22,7 +22,7 @@ return [
     'Our GP Group' => 'Our GP Group',
     'Our Services' => 'Our Services',
     'Services' => 'Services',
-    'Conact' => 'Contact',
+    'Contact' => 'Contact',
     'welcome' => 'Welcome To Ecoife HTML Template',
     'slider1' => 'Make an Impact',
     'slider2' => '& Give Back to',
