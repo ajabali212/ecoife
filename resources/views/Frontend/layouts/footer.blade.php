@@ -96,12 +96,12 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom" data-tm-bg-color="#242429">
+    <div class="footer-bottom" data-tm-bg-color="#000080">
       <div class="container">
         <div class="row footer-bottom-style1">
           <div class="col-sm-7 col-md-6  col-lg-5 col-xl-4">
             <div class="footer-paragraph text-center text-sm-start">
-              © Copyright 2021 by ThemeMascot.com
+              © Copyright 2021 by webxpertiz.com
             </div>
           </div>
           <div class="col-sm-5 col-md-6 col-lg-7 col-xl-8">

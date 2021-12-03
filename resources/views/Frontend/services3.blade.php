@@ -6,7 +6,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title">Services</h2>
+              <h2 class="title">@lang('auth.Services 3')</h2>
               <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
                 <div class="breadcrumbs">
                   <span><a href="#" rel="home">Home</a></span>
@@ -30,7 +30,7 @@
               <div class="tm-testimonial testimonials">
                 <div class="testimonial-inner">
                   <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
+                    <div class="author-text">@lang('auth.Services 2 Content')</div>
                     <div class="icon">
                       <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
                     </div>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="testimonial-author-info-holder">
                       <h5 class="name">Jessica Brown</h5>
-                      <span class="job-position">Customer</span>
+                      <!-- <span class="job-position">Customer</span> -->
                     </div>
                   </div>
                 </div>
@@ -49,7 +49,7 @@
               <div class="tm-testimonial testimonials">
                 <div class="testimonial-inner">
                   <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
+                    <div class="author-text">@lang('auth.Services 2 Content')</div>
                     <div class="icon">
                       <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
                     </div>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="testimonial-author-info-holder">
                       <h5 class="name">Mike Hardson</h5>
-                      <span class="job-position">Customer</span>
+                      <!-- <span class="job-position">Customer</span> -->
                     </div>
                   </div>
                 </div>
@@ -68,7 +68,7 @@
               <div class="tm-testimonial testimonials">
                 <div class="testimonial-inner">
                   <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
+                    <div class="author-text">@lang('auth.Services 2 Content')</div>
                     <div class="icon">
                       <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
                     </div>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="testimonial-author-info-holder">
                       <h5 class="name">Saral Albert</h5>
-                      <span class="job-position">Customer</span>
+                     <!--  <span class="job-position">Customer</span> -->
                     </div>
                   </div>
                 </div>
@@ -87,7 +87,7 @@
               <div class="tm-testimonial testimonials">
                 <div class="testimonial-inner">
                   <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
+                    <div class="author-text">@lang('auth.Services 2 Content')</div>
                     <div class="icon">
                       <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
                     </div>
@@ -98,7 +98,7 @@
                     </div>
                     <div class="testimonial-author-info-holder">
                       <h5 class="name">John Smith</h5>
-                      <span class="job-position">Customer</span>
+                      <!-- <span class="job-position">Customer</span> -->
                     </div>
                   </div>
                 </div>
@@ -106,7 +106,7 @@
               <div class="tm-testimonial testimonials">
                 <div class="testimonial-inner">
                   <div class="testimonial-text-holder">
-                    <div class="author-text">I was very impresed by the kologi service lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia.</div>
+                    <div class="author-text">@lang('auth.Services 2 Content')</div>
                     <div class="icon">
                       <img class="icon-img" src="{{asset('Frontend/images/icons/testi01.png')}}" alt="Image">
                     </div>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="testimonial-author-info-holder">
                       <h5 class="name">David Cooper</h5>
-                      <span class="job-position">Customer</span>
+                     <!--  <span class="job-position">Customer</span> -->
                     </div>
                   </div>
                 </div>

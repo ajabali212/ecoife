@@ -6,7 +6,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title">Contact</h2>
+              <h2 class="title">@lang('auth.Contact Banner')</h2>
               <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
                 <div class="breadcrumbs">
                   <span><a href="#" rel="home">Home</a></span>
@@ -33,7 +33,7 @@
                   <a class="icon icon-type-font-icon icon-dark icon-circled"> <i class="flaticon-contact-044-call-1"></i> </a>
                 </div>
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0">Phone</h5>
+                  <h5 class="icon-box-title mt-0">@lang('auth.Phone')</h5>
                   <div class="content"><a href="tel:+123.456.7890">+123.456.7890</a></div>
                 </div>
                 <div class="clearfix"></div>
@@ -45,7 +45,7 @@
                   <a class="icon icon-type-font-icon icon-dark icon-circled"> <i class="flaticon-contact-043-email-1"></i> </a>
                 </div>
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0">Email</h5>
+                  <h5 class="icon-box-title mt-0">@lang('auth.Email')</h5>
                   <div class="content"><a href="mailto:needhelp@yourdomain.com">needhelp@yourdomain.com</a></div>
                 </div>
                 <div class="clearfix"></div>
@@ -57,7 +57,7 @@
                   <a class="icon icon-type-font-icon icon-dark icon-circled"> <i class="flaticon-contact-025-world"></i> </a>
                 </div>
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0">Address</h5>
+                  <h5 class="icon-box-title mt-0">@lang('auth.Address')</h5>
                   <div class="content">66 Broklyn Street USA</div>
                 </div>
                 <div class="clearfix"></div>
@@ -69,7 +69,7 @@
                   <a class="icon icon-type-font-icon icon-dark icon-circled"> <i class="flaticon-contact-047-location"></i> </a>
                 </div>
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0">UK Address</h5>
+                  <h5 class="icon-box-title mt-0">UK @lang('auth.Address')</h5>
                   <div class="content">66 Broklyn Street USA</div>
                 </div>
                 <div class="clearfix"></div>
@@ -77,47 +77,47 @@
             </div>
           </div>
           <div class="col-lg-8">
-            <h2 class="mt-0 mb-0">Interested in discussing?</h2>
-            <p class="font-size-20">Active & Ready to use Contact Form!</p>
+            <h2 class="mt-0 mb-0">@lang('auth.Interested in discussing')</h2>
+            <p class="font-size-20"><!-- Active & Ready to use Contact Form! --></p>
             <!-- Contact Form -->
             <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="mb-3">
-                    <label>Name <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name">
+                    <label>@lang('auth.Name') <small>*</small></label>
+                    <input name="form_name" class="form-control" type="text">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="mb-3">
-                    <label>Email <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                    <label>@lang('auth.Email') <small>*</small></label>
+                    <input name="form_email" class="form-control required email" type="email">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-6">
                   <div class="mb-3">
-                    <label>Subject <small>*</small></label>
-                    <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
+                    <label>@lang('auth.Subject') <small>*</small></label>
+                    <input name="form_subject" class="form-control required" type="text">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="mb-3">
-                    <label>Phone</label>
-                    <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
+                    <label>@lang('auth.Phone')</label>
+                    <input name="form_phone" class="form-control" type="text">
                   </div>
                 </div>
               </div>
 
               <div class="mb-3">
-                <label>Message</label>
-                <textarea name="form_message" class="form-control required" rows="8" placeholder="Enter Message"></textarea>
+                <label>@lang('auth.Message')</label>
+                <textarea name="form_message" class="form-control required" rows="8"></textarea>
               </div>
               <div class="mb-3">
                 <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn btn-theme-colored1 text-white text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">Send your message</button>
-                <button type="reset" class="btn btn-theme-colored2 text-white text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">Reset</button>
+                <button type="submit" class="btn btn-theme-colored1 text-white text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">@lang('auth.Send your message')</button>
+                <button type="reset" class="btn btn-theme-colored2 text-white text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">@lang('auth.Reset')</button>
               </div>
             </form>
 
