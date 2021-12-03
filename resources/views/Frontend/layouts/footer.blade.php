@@ -96,7 +96,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom" data-tm-bg-color="#000080">
+    <div class="footer-bottom"  style="background: #5A79A5; color:white">
       <div class="container">
         <div class="row footer-bottom-style1">
           <div class="col-sm-7 col-md-6  col-lg-5 col-xl-4">
