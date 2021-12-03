@@ -6,7 +6,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title">Services</h2>
+              <h2 class="title">@lang('auth.Services 2')</h2>
               <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
                 <div class="breadcrumbs">
                   <span><a href="#" rel="home">Home</a></span>

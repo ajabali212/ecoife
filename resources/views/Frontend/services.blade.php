@@ -1,6 +1,29 @@
 @extends('frontend.layouts.main')
 @section('main-container')
 
+<!-- Banner Section Start-->
+<section class="page-title layer-overlay overlay-dark-3 section-typo-light bg-img-center" data-tm-bg-img="http://placehold.it/1894x826">
+      <div class="container pt-200 pb-200">
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="title">@lang('auth.Services')</h2>
+              <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
+                <div class="breadcrumbs">
+                  <span><a href="#" rel="home">Home</a></span>
+                  <span><i class="fa fa-angle-right"></i></span>
+                  <span><a href="#">Pages</a></span>
+                  <span><i class="fa fa-angle-right"></i></span>
+                  <span class="active">Page Title</span>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Banner Section End -->
+
  <!-- Section: Divider -->
     <section>
       <div class="container">
@@ -8,8 +31,8 @@
           <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-5">
               <div class="title-wrapper mb-1">
-                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">Check Our Services</h6>
-                <h2 class="title mb-0">Our Mission is to Save the World</h2>
+                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">@lang('auth.Check Our Services')</h6>
+                <h2 class="title mb-0">@lang('auth.Our Mission Is To Save The World')</h2>
               </div>
             </div>
           </div>
@@ -20,22 +43,22 @@
               <div class="project-tab-style1">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="eco-system-tab" data-bs-toggle="tab" href="#eco-system" role="tab" aria-controls="eco-system" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab1.png')}}" alt="Image"> <br>Eco System</a>
+                    <a class="nav-link" id="eco-system-tab" data-bs-toggle="tab" href="#eco-system" role="tab" aria-controls="eco-system" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab1.png')}}" alt="Image"> <br>@lang('auth.Eco_System')</a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link active" id="recycling-tab" data-bs-toggle="tab" href="#recycling" role="tab" aria-controls="recycling" aria-selected="true"><img src="{{asset('Frontend/images/icons/tab2.png')}}" alt="Image"> <br>Recycling</a>
+                    <a class="nav-link active" id="recycling-tab" data-bs-toggle="tab" href="#recycling" role="tab" aria-controls="recycling" aria-selected="true"><img src="{{asset('Frontend/images/icons/tab2.png')}}" alt="Image"> <br>@lang('auth.Recycling')</a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="waterrefine-tab" data-bs-toggle="tab" href="#waterrefine" role="tab" aria-controls="waterrefine" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab3.png')}}" alt="Image"> <br>Water Refine</a>
+                    <a class="nav-link" id="waterrefine-tab" data-bs-toggle="tab" href="#waterrefine" role="tab" aria-controls="waterrefine" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab3.png')}}" alt="Image"> <br>@lang('auth.water_refine')</a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="saveanimals-tab" data-bs-toggle="tab" href="#saveanimals" role="tab" aria-controls="saveanimals" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab4.png')}}" alt="Image"> <br>Save Animals</a>
+                    <a class="nav-link" id="saveanimals-tab" data-bs-toggle="tab" href="#saveanimals" role="tab" aria-controls="saveanimals" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab4.png')}}" alt="Image"> <br>@lang('auth.Save Animals')</a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="solarenergy-tab" data-bs-toggle="tab" href="#solarenergy" role="tab" aria-controls="solarenergy" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>Solar Energy</a>
+                    <a class="nav-link" id="solarenergy-tab" data-bs-toggle="tab" href="#solarenergy" role="tab" aria-controls="solarenergy" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>@lang('auth.Solar Energy')</a>
                   </li>
                 </ul>
-                <div class="tab-content p-0" id="myTabContent">
+                <!-- <div class="tab-content p-0" id="myTabContent">
                   <div class="tab-pane fade" id="eco-system" role="tabpanel" aria-labelledby="eco-system-tab">
                     <div class="row">
                       <div class="col-lg-12 col-xl-6">
@@ -151,7 +174,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
