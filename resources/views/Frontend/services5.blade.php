@@ -132,4 +132,69 @@
       </div>
     </section>
     <!-- End Divider -->
+
+     <section>
+      <div class="container">
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-6 col-lg-6">
+              <div class="blog-current-theme-style1 mb-sm-30">
+                <article class="post">
+                  <div class="entry-header">
+                    <div class="post-thumb">
+                      <div class="post-thumb-inner">
+                        <div class="thumb">
+                          <img class="w-100" src="{{asset('Frontend/images/bg-images/h1.jpg')}}" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="entry-content">
+                    <div class="blog-meta mb-15">
+                      <span class="admin-type mr-10">
+                        <i class="fas fa-user"></i> by Admin
+                      </span>
+                      <span class="date-type">
+                        <i class="far fa-clock"></i> 20 Feb, 2021
+                      </span>
+                    </div>
+                    <h4 class="entry-title mt-0 mb-0"><a href="news-details.html" rel="bookmark">@lang('auth.Eco System Responsible for Green Energy')</a></h4>
+                    <div class="clearfix"></div>
+                  </div>
+                  <a class="btn-more" href="news-details.html"><i class="fas fa-chevron-up"></i></a>
+                </article>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="blog-current-theme-style1">
+                <article class="post">
+                  <div class="entry-header">
+                    <div class="post-thumb">
+                      <div class="post-thumb-inner">
+                        <div class="thumb">
+                          <img class="w-100" src="{{asset('Frontend/images/bg-images/h2.jpg')}}" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="entry-content">
+                    <div class="blog-meta mb-15">
+                      <span class="admin-type mr-10">
+                        <i class="fas fa-user"></i> by Admin
+                      </span>
+                      <span class="date-type">
+                        <i class="far fa-clock"></i> 20 Feb, 2022
+                      </span>
+                    </div>
+                    <h4 class="entry-title mt-0 mb-0"><a href="news-details.html" rel="bookmark">@lang('auth.Eco System Responsible for Global Warnings')</a></h4>
+                    <div class="clearfix"></div>
+                  </div>
+                  <a class="btn-more" href="news-details.html"><i class="fas fa-chevron-up"></i></a>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 @endsection

@@ -62,7 +62,7 @@
                         <i class="far fa-clock"></i> 20 Feb, 2021
                       </span>
                     </div>
-                    <h4 class="entry-title mt-0 mb-0"><a href="news-details.html" rel="bookmark">Eco System Responsible for Green Energy</a></h4>
+                    <h4 class="entry-title mt-0 mb-0"><a href="news-details.html" rel="bookmark">@lang('auth.Eco System Responsible for Green Energy')</a></h4>
                     <div class="clearfix"></div>
                   </div>
                   <a class="btn-more" href="news-details.html"><i class="fas fa-chevron-up"></i></a>
@@ -90,7 +90,7 @@
                         <i class="far fa-clock"></i> 20 Feb, 2022
                       </span>
                     </div>
-                    <h4 class="entry-title mt-0 mb-0"><a href="news-details.html" rel="bookmark">Eco System Responsible for Global Warnings</a></h4>
+                    <h4 class="entry-title mt-0 mb-0"><a href="news-details.html" rel="bookmark">@lang('auth.Eco System Responsible for Global Warnings')</a></h4>
                     <div class="clearfix"></div>
                   </div>
                   <a class="btn-more" href="news-details.html"><i class="fas fa-chevron-up"></i></a>
