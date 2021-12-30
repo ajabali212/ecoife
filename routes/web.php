@@ -25,7 +25,7 @@ use App\Http\Controllers\LocalizationController;
 //});
 
 
- 
+ //dummy test
 
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about',[AboutUsController::class,'index'])->name('about');
